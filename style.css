@@ -1,5 +1,23 @@
-img {
+body {
+  padding: 15%;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+/* Images uploaded and rendered in the content are not displyed */
+
+img.alignnone {
+  display: none;
+  /* padding: 0 40%; */
+}
+
+.featured-image {
   border-radius: 5px;
+  /* width: 100%; */
+  /* height: auto; */
 }
 
 p {
@@ -8,8 +26,4 @@ p {
 
 .content {
   font-size: 22px;
-}
-
-.content img {
-  display: none;
 }
